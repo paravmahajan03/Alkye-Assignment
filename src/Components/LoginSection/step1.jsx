@@ -25,7 +25,7 @@ export default function Step1({ data, handleUserData, handleStep, error }) {
           type="text"
           id="username"
           required
-          placeholder="Username"
+          placeholder="Email"
           className="border rounded-[5px] w-full border-inputs py-[3.4%] px-[6.6%] sm:py-3 sm:px-6 placeholder-loginSection text-2xl sm:text-2xl-sm leading-2xl sm:leading-2xl-sm"
         />
         <p>{error}</p>
