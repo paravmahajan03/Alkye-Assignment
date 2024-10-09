@@ -26,7 +26,7 @@ export default function Carousel({ slides, title }) {
   };
 
   return (
-    <div className="carousel-container pl-[10.3%] sm:px-[4%] mt-[5.8%] xxl:mt-[4%] sm:mt-0 sm:mb-10">
+    <div className="carousel-container pl-[10.3%] sm:px-[4%] pt-[5.8%] xxl:pt-[4%] sm:pt-0 sm:pb-10">
       <style>
         {`
         .slick-dots {
